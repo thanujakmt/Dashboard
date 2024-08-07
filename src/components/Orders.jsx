@@ -10,7 +10,7 @@ function Orders(props) {
                 <td className="  w-52 pr-16 lg:w-52 py-4">{props.data.orderNo}</td>
                 <td className="  w-52 pr-16 lg:w-52 py-4">{props.data.amount}</td>
                 <td >
-                    <div className={`${props.data.textcolor} ${props.data.bgcolor} w-52 lg:w-32 py-4 h-5 flex justify-center items-center rounded-[35px]`}>{props.data.amount}</div>
+                    <div className={`${props.data.textcolor} ${props.data.bgcolor} w-52 lg:w-32 py-4 h-5 flex justify-center items-center rounded-[35px]`}>{props.data.deliverystatus}</div>
                 </td>
             </tr>
         </>
